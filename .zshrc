@@ -3745,10 +3745,7 @@ zrclocal
 prompt off
 
 # Customise the prompt yourself:
-local RCol='\[\e[0m\]'
-local Orng='\[\e[38;5;214m\]'
-local LOrg='\[\e[38;5;250m\]'
-PROMPT=$'%{\e[38;5;214m%}%n%{\e[38;5;250m%}@%m%{\e[0m%}%{\e[0m%} < %1~ > '
+PROMPT=$'%{\e[38;5;39m%}%n%{\e[38;5;255m%}@%m%{\e[0m%}%{\e[0m%} < %1~ > '
 
 # Dir colors
 LS_COLORS=$LS_COLORS:'di=38;5;214:'

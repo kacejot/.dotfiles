@@ -17,7 +17,8 @@
 
 "Alduin color config
 "{
-    let g:alduin_Shout_Become_Ethereal = 1
+"   let g:alduin_Shout_Become_Ethereal = 1
+    let g:alduin_Shout_Dragon_Aspect = 1
     colorscheme alduin
 "}
 
