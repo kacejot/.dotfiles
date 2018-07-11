@@ -1,0 +1,56 @@
+!! colors settings
+
+!! dark gray
+*color0:  #232429
+!! gray
+*color8:  #757575
+
+
+!! ligth red
+*color1:  #ac645c
+!! orange
+*color9:  #c16f44
+
+
+!! milk red
+*color2:  #6e765f
+*color10: #6e765f
+
+!! yellow-orange
+*color3:  #80cce6
+*color11: #80cce6
+
+!! ash-orange 625145
+*color4:  #0099cc
+*color12: #0099cc
+
+!! light gray
+*color5:  #b7bba6
+*color13: #b7bba6
+
+!! white-gray
+*color6:  #d7e2d3
+*color14: #d7e2d3
+
+!! white 
+*color7:  #ffffff
+*color15: #ffffff
+
+!! fonst settings
+Xft.dpi:          98
+Xft.antialias:    true
+Xft.rgba:         rgb
+Xft.hinting:      true
+Xft.hintstyle:    hintslight
+
+!! xrvt-unicode settings
+URxvt.depth:      32
+URxvt.background: rgba:0000/0000/0200/ee00
+URxvt.blurRadius: 10
+URxvt.foreground: white
+URxvt.font:       xft:xos4 Terminus:size=12
+URxvt.scrollBar:  false
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+
