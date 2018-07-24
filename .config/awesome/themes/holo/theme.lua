@@ -14,7 +14,7 @@ local string = string
 local os = { getenv = os.getenv }
 local my_table = awful.util.table or gears.table -- 4.{0,1} compatibility
 
-local theme                                     = {}
+local theme                                     = require("beautiful").get()
 theme.default_dir                               = require("awful.util").get_themes_dir() .. "default"
 theme.icon_dir                                  = os.getenv("HOME") .. "/.config/awesome/themes/holo/icons"
 theme.wallpaper                                 = os.getenv("HOME") .. "/.config/awesome/themes/holo/urahara.png"
@@ -100,6 +100,9 @@ theme.musicplr = string.format("%s -e ncmpcpp", awful.util.terminal)
 local markup = lain.util.markup
 local blue   = "#80CCE6"
 local space3 = markup.font("xos4 Terminus 3", " ")
+
+-- Keyboard layout
+local mykeyboardlayout = awful.widget.keyboardlayout()
 
 -- Clock
 local mytextclock = wibox.widget.textclock(markup("#FFFFFF", space3 .. "%H:%M   " .. markup.font("xos Terminus 4", " ")))
@@ -386,6 +389,7 @@ function theme.at_screen_connect(s)
             -- netdown_icon,
             -- networkwidget,
             -- netup_icon,
+            mykeyboardlayout,
             memicon,
             memwidget,
             bottom_bar,
