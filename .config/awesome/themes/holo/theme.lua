@@ -385,11 +385,11 @@ function theme.at_screen_connect(s)
         s.mytasklist, -- Middle widget
         { -- Right widgets
             layout = wibox.layout.fixed.horizontal,
+            mykeyboardlayout,
             spr_bottom_right,
             -- netdown_icon,
             -- networkwidget,
             -- netup_icon,
-            mykeyboardlayout,
             memicon,
             memwidget,
             bottom_bar,
