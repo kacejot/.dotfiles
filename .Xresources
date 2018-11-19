@@ -1,59 +1,27 @@
-!! colors settings
+#include ".xrdb/color/nord"
+#include ".xrdb/rofi/nord"
 
-!! dark gray
-*color0:  #232429
-!! gray
-*color8:  #757575
-
-
-!! ligth red
-*color1:  #ac645c
-!! orange
-*color9:  #c16f44
-
-
-!! milk red
-*color2:  #6e765f
-*color10: #6e765f
-
-!! yellow-orange
-*color3:  #80cce6
-*color11: #80cce6
-
-!! ash-orange 625145
-*color4:  #0099cc
-*color12: #0099cc
-
-!! light gray
-*color5:  #b7bba6
-*color13: #b7bba6
-
-!! white-gray
-*color6:  #d7e2d3
-*color14: #d7e2d3
-
-!! white 
-*color7:  #ffffff
-*color15: #ffffff
-
-!! fonst settings
-Xft.dpi:          98
-Xft.antialias:    true
-Xft.rgba:         rgb
-Xft.hinting:      true
-Xft.hintstyle:    hintslight
-
-!! xrvt-unicode settings
-URxvt.depth:      32
-URxvt.foreground: white
-URxvt.font:       xft:xos4 Terminus:size=12
-URxvt.scrollBar:  false
-URxvt.perl-ext-common: default,matcher
-URxvt.url-launcher: /usr/bin/xdg-open
-URxvt.matcher.button: 1
-
-URxvt.transparent: true
-URxvt.shading: 20
-!!URxvt.tintColor: #000000
-URxvt.blurRadius: 10
-!!URxvt.background: rgba:0000/0000/0200/ee00
+URxvt.geometry: 		72x18
+URxvt*letterSpace: 	    0
+URxvt.lineSpace: 		0
+URxvt*internalBorder:   24
+URxvt*externalBorder:   0
+URxvt*depth:            32
+URxvt*saveline:         2000
+URxvt*scrollBar:        false
+URxvt.perl-ext-common:  default,clipboard,url-select,keyboard-select
+URxvt.copyCommand:      xclip -i -selection clipboard
+URxvt.pasteCommand:     xclip -o -selection clipboard
+URxvt.keysym.M-c:       perl:clipboard:copy
+URxvt.keysym.M-v:       perl:clipboard:paste
+URxvt.keysym.M-C-v:     perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape:  perl:keyboard-select:activate
+URxvt.keysym.Shift-Up:	command:\033]720;1\007
+URxvt.keysym.Shift-Down:command:\033]721;1\007
+URxvt.font:             xft:xos4 Terminus:size=12
+URxvt.keysym.M-s:       perl:keyboard-select:search
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.urlLauncher:      qutebrowser
+URxvt.underlineURLs:    true
+URxvt.urlButton:        1
+URxvt*buffered:         false      
