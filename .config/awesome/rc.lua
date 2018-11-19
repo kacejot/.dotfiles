@@ -44,8 +44,7 @@ end
 
 -- Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "zenburn/theme.lua")
-
+beautiful.init(string.format("%s/.config/awesome/themes/zenburn/theme.lua", os.getenv("HOME")))
 -- This is used later as the default terminal and editor to run.
 terminal = "urxvt"
 editor = os.getenv("EDITOR") or "vim"
