@@ -56,3 +56,7 @@ yay-git should be installed from AUR
 ## Screenshots
 ![](screenshots/1.png)
 ![](screenshots/2.png)
+## Config info
+TODO
+## Roadmap
+TODO
