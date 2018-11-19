@@ -18,6 +18,7 @@ unclutter
 conky
 xcursor-neutral
 rxvt-unicode
+ranger
 terminus-font
 vim
 zsh
@@ -44,10 +45,10 @@ yay-git
 Install all necessary packages that are listed above. For Arch Linux users I have provided commands below:
 ```bash
 sudo pacman --sync --refresh
-sudo pacman --sync xorg-server xorg-xinit xorg-setxkbmap awesome compton unclutter conky xcursor-neutral rxvt-unicode terminus-font vim zsh 
+sudo pacman --sync xorg-server xorg-xinit xorg-setxkbmap awesome compton unclutter conky xcursor-neutral rxvt-unicode ranger terminus-font vim zsh 
 ```
 And for non-required packages:
 ```bash
 sudo pacman --sync feh qutebrowser htop lxappearance mpd mpc ncmpcpp neofetch rtorrent scrot ttf-droid
 ```
-yay-git should be installed from aur
+yay-git should be installed from AUR
