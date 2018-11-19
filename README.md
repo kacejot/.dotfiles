@@ -52,3 +52,7 @@ And for non-required packages:
 sudo pacman --sync feh qutebrowser htop lxappearance mpd mpc ncmpcpp neofetch rtorrent scrot ttf-droid
 ```
 yay-git should be installed from AUR
+
+## Screenshots
+![](screenshots/1.png)
+![](screenshots/2.png)
