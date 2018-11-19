@@ -3,7 +3,7 @@
 --    By Adrian C. (anrxc)   --
 -------------------------------
 
-local themes_path = string.format("%s/.config/awesome/themes", os.getenv("HOME"), chosen_theme)
+local themes_path = string.format("%s/.config/awesome/themes/", os.getenv("HOME"), chosen_theme)
 local dpi = require("beautiful.xresources").apply_dpi
 
 -- {{{ Main
