@@ -16,7 +16,7 @@ URxvt.keysym.M-c:       perl:clipboard:copy
 URxvt.keysym.M-v:       perl:clipboard:paste
 URxvt.keysym.M-C-v:     perl:clipboard:paste_escaped
 URxvt.keysym.M-Escape:  perl:keyboard-select:activate
-URxvt.keysym.Shift-Up:	command:\033]720;1\007
+URxvt.keysym.Shift-Up:  command:\033]720;1\007
 URxvt.keysym.Shift-Down:command:\033]721;1\007
 URxvt.font:             xft:xos4 Terminus:size=12
 URxvt.keysym.M-s:       perl:keyboard-select:search
