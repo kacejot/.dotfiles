@@ -59,6 +59,7 @@ cp -r .dotfiles/.* ~/
 ![](screenshots/1.png)
 ![](screenshots/2.png)
 ## Config info
+TODO
 
 ## Roadmap
 * Notifications
