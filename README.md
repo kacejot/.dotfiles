@@ -30,8 +30,9 @@ A bunch of dotfiles for console style based desktop. The main purpose is to crea
 * `yay-git` - AUR-helper
 
 ## Installation
-
+### Software
 For Arch Linux users I have provided commands to install all packages needed for this configs.
+
 Update pacman database:
 ```bash
 sudo pacman --sync --refresh
@@ -46,10 +47,19 @@ sudo pacman --sync feh qutebrowser htop lxappearance mpd mpc ncmpcpp neofetch rt
 ```
 yay-git should be installed from AUR
 
+### Configs
+Just clone this repo and copy all its contents to your home dir:
+```bash
+git clone --recurse-submodules -j4 https://github.com/kacejot/.dotfiles.git
+cp -r .dotfiles/* ~/
+cp -r .dotfiles/.* ~/
+```
+
 ## Screenshots
 ![](screenshots/1.png)
 ![](screenshots/2.png)
 ## Config info
-TODO
+
 ## Roadmap
-TODO
+* Notifications
+* Area screenshot
