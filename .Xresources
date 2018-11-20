@@ -1,9 +1,9 @@
 #include ".xrdb/color/nord"
 #include ".xrdb/rofi/nord"
 
-URxvt.geometry: 		72x18
-URxvt*letterSpace: 	    0
-URxvt.lineSpace: 		0
+URxvt.geometry:         72x18
+URxvt*letterSpace:      0
+URxvt.lineSpace:        0
 URxvt*internalBorder:   24
 URxvt*externalBorder:   0
 URxvt*depth:            32
