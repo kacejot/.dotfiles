@@ -31,16 +31,16 @@ A bunch of dotfiles for console style based desktop. The main purpose is to crea
 
 ## Installation
 
-### For Arch Linux users I have provided commands to install all packages needed for this configs.
-### Update pacman database:
+For Arch Linux users I have provided commands to install all packages needed for this configs.
+Update pacman database:
 ```bash
 sudo pacman --sync --refresh
 ```
-### Install base packages:
+Install base packages:
 ```bash
 sudo pacman --sync xorg-server xorg-xinit awesome compton unclutter conky terminus-font
 ```
-### Install other packages:
+Install other packages:
 ```bash
 sudo pacman --sync feh qutebrowser htop lxappearance mpd mpc ncmpcpp neofetch rtorrent scrot ttf-droid xcursor-neutral ranger rxvt-unicode vim zsh xorg-setxkbmap mpv
 ```
