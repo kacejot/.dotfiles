@@ -15,6 +15,7 @@ set nocompatible
 
 " Turn on syntax highlighting.
 syntax on
+colorscheme alduin
 
 set tabstop=4
 set shiftwidth=4

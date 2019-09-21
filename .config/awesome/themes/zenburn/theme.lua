@@ -12,7 +12,7 @@ theme.wallpaper = themes_path .. "zenburn/zenburn-background.png"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "xos4 Terminus 11"
+theme.font      = "Terminus 14"
 
 -- {{{ Colors
 theme.fg_normal  = "#DCDCCC"
